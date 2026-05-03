@@ -1,0 +1,32 @@
+.about {
+    padding-left: 10vw;
+    padding-top: 23vh;
+    height: 100vh;
+    background-color: white;
+}
+
+iframe {
+    width: 40vw;
+    height: 75vh;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px -1px rgba(74, 59, 55, 0.1);
+}
+
+.about-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80vw
+}
+
+.about-text {
+    width: 60vw;
+    margin-left: 5vw;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #4b4b4b;
+}
+
+.about-text p {
+    font-size: larger;
+}

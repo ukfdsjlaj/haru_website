@@ -1,0 +1,41 @@
+.nav-container img {
+    height: 8vh;
+    width: 8vw;
+    padding: 1vh 0 1vh 0;
+    margin-left: 5vh;
+}
+
+.nav-container {
+    margin-left: 10vw;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    margin-top: 3vh;
+    height: 10vh;
+    width: 80vw;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    box-shadow: 0 4px 6px -1px rgba(74, 59, 55, 0.1);
+    border-radius: 10px;
+    z-index: 100;
+}
+
+.nav-links {
+    display: flex;
+    gap: 1vh;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 5vh;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    font-size: 2vh;
+}
+
+.nav-links a:hover {
+    color: #FF6B6B;
+    transition-duration: 0.2s;
+}
+
