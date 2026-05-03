@@ -27,9 +27,15 @@ img {
 }
 
 .layer1-text, .layer2-text {
+    max-width: 60%;
     color: #4b4b4b;
     margin: auto;
     margin-left: 5vh;
+}
+
+.layer1-image, .layer2-image {
+    max-width: 40%;
+    height: 100%;
 }
 
 .layer1-text p, .layer2-text p{
