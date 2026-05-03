@@ -12,12 +12,12 @@ function Home() {
                         <button className="glf-button" data-glf-cuid="3e682d01-54ea-4d0f-acf8-549faeb260fb" data-glf-ruid="4c81dc7b-0e42-48f6-8827-09d6cefa1829" >Order Online</button>
                     </div>
                     <div className='layer1-image'>
-                        <img src='../src/assets/images/chicken.png' alt='Home Image'></img>
+                        <img src='/Chicken.png' alt='Home Image'></img>
                     </div>
                 </div>
                 <div className='layer2'>
                     <div className='layer2-image'>
-                        <img src='../src/assets/images/restaurant.jpg' alt='Home Image'></img>
+                        <img src='/restaurant.jpg' alt='Home Image'></img>
                     </div>
                     <div className='layer2-text'>
                         <h1>Reserve Your Table</h1>

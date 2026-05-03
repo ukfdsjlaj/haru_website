@@ -6,7 +6,7 @@ function Nav() {
         <>
             <div className='nav-container'>
                 <div className='logo'>
-                    <img src='../src/assets/images/logo.png' alt='Logo'></img>
+                    <img src='/logo.png' alt='Logo'></img>
                 </div>
                 <div className='nav-links'>
                     <a href='/'>Home</a>

@@ -4,8 +4,8 @@ function Menu() {
     return (
         <>
             <div className='menu-container'>
-                <img src='../src/assets/images/front.jpg' alt='front'></img>
-                <img src='../src/assets/images/back.jpg' alt='back'></img>
+                <img src='/front.jpg' alt='front'></img>
+                <img src='/back.jpg' alt='back'></img>
             </div>
         </>
     )
