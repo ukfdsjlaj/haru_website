@@ -20,7 +20,7 @@ function Home() {
                     </div>
                     <div className='layer2-text'>
                         <h1>Reserve Your Table</h1>
-                        <p>Book your table now and enjoy a delightful dining experience at Haru.</p>
+                        <p>Book your table now<br/>and enjoy a delightful dining experience at Haru.</p>
                         <button className="glf-button" data-glf-cuid="3e682d01-54ea-4d0f-acf8-549faeb260fb" data-glf-ruid="4c81dc7b-0e42-48f6-8827-09d6cefa1829" data-glf-reservation="true" >Reserve</button>
                     </div>
                 </div>

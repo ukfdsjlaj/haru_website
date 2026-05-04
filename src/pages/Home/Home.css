@@ -27,14 +27,21 @@ img {
 }
 
 .layer1-text, .layer2-text {
-    max-width: 60%;
     color: #4b4b4b;
     margin: auto;
     margin-left: 5vh;
 }
 
+.layer2-image {
+    width: 50%;
+}
+
+/* .layer2-text {
+    text-align: right;
+    margin-right: 5vh;
+} */
 .layer1-image, .layer2-image {
-    max-width: 40%;
+    max-width: 50%;
     height: 100%;
 }
 
