@@ -54,9 +54,15 @@ img {
 
 .layer1-text button, .layer2-text button {
     border-style: none;
-    border-radius: 50px;
+    border-radius: 3vw;
     background-color: red;
-    font-size: 2vw;
+    font-size: 1vw; 
+
+    display: flex;
+    justify-content: center; 
+    align-items: center;   
+    height: 3vw;
+    width: 10vw; 
 }
 
 .footer {
