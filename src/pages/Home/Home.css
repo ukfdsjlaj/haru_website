@@ -19,6 +19,7 @@ img {
     display: flex;
     height: 50vh;;
     width: 80vw;
+    max-width: 80vw;
     background-color: whitesmoke;
     flex-direction: row;
     border-radius: 10px;
@@ -30,29 +31,32 @@ img {
     color: #4b4b4b;
     margin: auto;
     margin-left: 5vh;
+    max-width: 50%;
 }
 
 .layer2-image {
     width: 50%;
+    max-width: 50%;
 }
 
-/* .layer2-text {
-    text-align: right;
-    margin-right: 5vh;
-} */
 .layer1-image, .layer2-image {
     max-width: 50%;
     height: 100%;
 }
 
 .layer1-text p, .layer2-text p{
-    font-size: larger;
+    font-size: 1.2vw;
+}
+
+.layer1-text h1, .layer2-text h1 {
+    font-size: 2vw;
 }
 
 .layer1-text button, .layer2-text button {
     border-style: none;
     border-radius: 50px;
     background-color: red;
+    font-size: 2vw;
 }
 
 .footer {
