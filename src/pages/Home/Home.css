@@ -17,7 +17,7 @@ img {
 .layer1, .layer2 {
     margin-left: 10vw;
     display: flex;
-    height: 50vh;;
+    height: 25vw;
     width: 80vw;
     max-width: 80vw;
     background-color: whitesmoke;
@@ -30,7 +30,8 @@ img {
 .layer1-text, .layer2-text {
     color: #4b4b4b;
     margin: auto;
-    margin-left: 5vh;
+    
+    padding-left: 2vw;
     max-width: 50%;
 }
 
@@ -53,16 +54,19 @@ img {
 }
 
 .layer1-text button, .layer2-text button {
-    border-style: none;
+    border: none;
     border-radius: 3vw;
     background-color: red;
-    font-size: 1vw; 
-
-    display: flex;
-    justify-content: center; 
-    align-items: center;   
-    height: 3vw;
-    width: 10vw; 
+    color: white;
+    font-size: 1vw;
+    padding: 0.9em 2em;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    width: auto;
+    min-width: auto;
+    height: auto;
 }
 
 .footer {
